@@ -1,4 +1,4 @@
-# 📱 Flipkart Mobile Data Scraping using Selenium
+# 📱 Flipkart Mobile Data Scraping using BeautifulSoup
 
 ## 🔍 Overview
 This project focuses on extracting mobile phone data from [Flipkart.com](https://www.flipkart.com) using Python automation with Selenium. The goal is to collect product details such as name, price, rating, and specifications to enable market analysis or comparison.
@@ -8,7 +8,6 @@ To automate the process of scraping mobile listings from Flipkart and organize t
 
 ## 🛠️ Tech Stack
 - Python  
-- Selenium  
 - BeautifulSoup  
 - Pandas  
 - ChromeDriver  
@@ -19,10 +18,9 @@ To automate the process of scraping mobile listings from Flipkart and organize t
 - Price  
 
 ## 🧰 Features
-- Automatic scrolling to load more results  
-- Handling of dynamic page content and delays  
-- Exception handling for missing values  
-- Output stored in a structured CSV file for analysis
+- Collects structured data across multiple pages  
+- Skips or handles missing product data  
+- Make a data frame of output
 
 ## 🖼️ Sample Output
 ```
